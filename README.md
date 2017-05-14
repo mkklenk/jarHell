@@ -16,7 +16,7 @@ Exception in thread "main" java.lang.NoSuchMethodError: Utils.multiply(Ljava/lan
 
 ## multiplication operations before add operations
 *java -cp "./API for Calculator/target/api-1.0-SNAPSHOT.jar:**./Multiplication operations/target/mutliply-1.0-SNAPSHOT.jar**:**./Add operations/target/add-1.0-SNAPSHOT.jar**:./1Application/target/application-1.0-SNAPSHOT.jar" Main*
-In this case the "add" jar is loaded before the "multiply" jar. The code runs unless it has to multiply:
+In this case the "add" jar is loaded before the "multiply" jar. The code runs unless it has to add:
 
 ```
 Welcome to Calculator:
